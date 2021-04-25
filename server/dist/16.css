@@ -1,0 +1,320 @@
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.customer-voucher .vouchers-container {
+  margin-top: 0; }
+  .customer-voucher .vouchers-container .voucher-item {
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    width: auto; }
+    .customer-voucher .vouchers-container .voucher-item + .voucher-item {
+      margin-top: 30px; }
+    .customer-voucher .vouchers-container .voucher-item .icon-sharing {
+      position: absolute;
+      top: 5px;
+      left: 25px;
+      font-size: 9px; }
+    .customer-voucher .vouchers-container .voucher-item .voucher-content {
+      position: relative;
+      border-radius: 4px;
+      -webkit-box-shadow: 0 0 8px 0 rgba(34, 34, 34, 0.1);
+              box-shadow: 0 0 8px 0 rgba(34, 34, 34, 0.1);
+      padding: 20px 0;
+      width: auto;
+      display: block; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-content:before, .customer-voucher .vouchers-container .voucher-item .voucher-content:after {
+        content: none; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        padding: 0 20px; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info {
+        max-width: 100%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        padding: 0 10px 0 0;
+        border-right: none; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info .voucher-price {
+          font-size: 32px;
+          line-height: 40px;
+          font-family: "Roboto-Medium", Arial, sans-serif;
+          letter-spacing: -0.4px;
+          color: #222; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info .restaurant-name {
+          font-size: 13px;
+          line-height: 16px;
+          color: #666;
+          width: auto;
+          white-space: nowrap;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          overflow: hidden;
+          margin-top: 2px;
+          text-transform: none;
+          display: inline-block; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info .restaurant-name a {
+            font-size: 13px;
+            line-height: 16px;
+            color: #666; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-info .voucher-expire {
+          font-size: 13px;
+          line-height: 16px;
+          color: #666;
+          margin-top: 3px; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-content .img-wrapper {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 80px;
+                flex: 0 0 80px;
+        width: 80px;
+        height: 80px;
+        overflow: hidden;
+        margin-top: 0; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .img-wrapper .bg-img {
+          border-radius: 4px; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .img-wrapper .default-img {
+          background-size: 25px; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper {
+        position: relative;
+        padding: 0 20px; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .btn-detail {
+          display: inline-block;
+          margin-top: 10px;
+          cursor: pointer;
+          color: #e72628;
+          font-size: 13px;
+          line-height: 16px; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .btn-detail:before {
+            position: absolute;
+            left: 21px;
+            bottom: -19px;
+            border: solid #e8e8e8;
+            border-width: 0 1px 1px 0;
+            display: inline-block;
+            padding: 5px;
+            -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+            background: #fff;
+            z-index: 1012; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .btn-detail i {
+            background: #e72628;
+            border-radius: 100%;
+            width: 14px;
+            height: 14px;
+            font-size: 10px;
+            line-height: 14px;
+            margin-right: 5px; }
+            .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .btn-detail i:before {
+              color: #fff; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .voucher-detail {
+          display: none;
+          padding: 20px 10px;
+          border-radius: 4px;
+          background-color: #fff;
+          border: 1px solid #e8e8e8;
+          position: absolute;
+          top: 41px;
+          left: 0;
+          z-index: 11;
+          -webkit-box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1);
+                  box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1); }
+          .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .voucher-detail ol li {
+            font-size: 13px;
+            line-height: 1.23;
+            color: #222;
+            margin-bottom: 0; }
+            .customer-voucher .vouchers-container .voucher-item .voucher-content .voucher-detail-wrapper .voucher-detail ol li + li {
+              margin-top: 10px; }
+    .customer-voucher .vouchers-container .voucher-item.detail-opened .voucher-detail-wrapper .btn-detail:before {
+      content: ''; }
+    .customer-voucher .vouchers-container .voucher-item.detail-opened .voucher-detail-wrapper .voucher-detail {
+      display: block; }
+    .customer-voucher .vouchers-container .voucher-item .voucher-earned {
+      margin-top: 20px;
+      padding: 20px 20px 0;
+      border-top: 1px solid #eee; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-earned .earned-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        font-size: 13px;
+        line-height: 16px;
+        color: #666; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-earned .earned-row .earned-text span {
+          font-size: 20px;
+          font-family: "Roboto-Medium", Arial, sans-serif;
+          line-height: 1.2;
+          letter-spacing: -0.1px;
+          color: #e72628;
+          margin-right: 5px; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-earned .earned-row .share-number {
+          margin-left: auto; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-earned .earned-bar {
+        width: 100%;
+        height: 8px;
+        background: #ffeae9;
+        border-radius: 8px;
+        margin-top: 13px;
+        margin-bottom: 10px;
+        position: relative;
+        overflow: hidden; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-earned .earned-bar .active-bar {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          background: #e72628; }
+    .customer-voucher .vouchers-container .voucher-item .extra-info p {
+      font-size: 13px;
+      line-height: 16px;
+      color: #666; }
+      .customer-voucher .vouchers-container .voucher-item .extra-info p + p {
+        margin-top: 5px; }
+    .customer-voucher .vouchers-container .voucher-item .voucher-actions {
+      position: relative;
+      margin-top: 25px;
+      width: 100%; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-actions:empty {
+        display: none; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-actions .buttons-wrapper {
+        float: left;
+        width: auto;
+        margin-top: 0; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .buttons-wrapper button {
+          padding: 6px 13px;
+          min-width: 0;
+          background: #e72628;
+          color: #fff;
+          width: auto; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .buttons-wrapper button i:before {
+            color: #fff; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .buttons-wrapper .dropdown-panel {
+          left: 0;
+          right: auto;
+          top: 45px; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-wrapper {
+        position: relative;
+        float: right; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle {
+        width: auto;
+        border: 1px solid #e72628;
+        background: #fff;
+        padding: 7px 10px;
+        position: relative; }
+        @media (max-width: 479.98px) {
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle {
+            padding: 6px 10px; } }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle:enabled:hover {
+          opacity: 1; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle:before {
+          position: absolute;
+          left: 50%;
+          bottom: -21px;
+          margin-left: -8px;
+          border: solid #e8e8e8;
+          border-width: 0 1px 1px 0;
+          display: inline-block;
+          padding: 5px;
+          -webkit-transform: rotate(-135deg);
+              -ms-transform: rotate(-135deg);
+                  transform: rotate(-135deg);
+          background: #fff;
+          z-index: 11; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle.opened:before {
+          content: ''; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle i {
+          margin-right: 7px; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .btn-convert-toggle i:before {
+            color: #e72628; }
+      .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail {
+        position: absolute;
+        top: 45px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+                transform: translate(-50%, 0);
+        width: 260px;
+        -webkit-box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1);
+                box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1);
+        background-color: #fff;
+        border-radius: 4px;
+        z-index: 3;
+        padding: 20px;
+        border: 1px solid #e8e8e8; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail p + p {
+          margin-bottom: 20px;
+          font-size: 12px;
+          color: #666; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail p + p span {
+            font-family: "Roboto-Medium", Arial, sans-serif; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper {
+          float: left; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper > span {
+            display: block;
+            float: left; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper .btn-quantity {
+            position: relative;
+            width: 36px;
+            height: 36px;
+            border: 1px solid #e5e5e5;
+            border-radius: 4px;
+            cursor: pointer; }
+            .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper .btn-quantity:before, .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper .btn-quantity:after {
+              top: 9px;
+              left: 16px;
+              background: #ccc; }
+          .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .quantity-wrapper .quantity-text {
+            font-size: 20px;
+            font-family: "Roboto-Medium", Arial, sans-serif;
+            line-height: 1.2;
+            letter-spacing: -0.1px;
+            text-align: center;
+            color: #222;
+            margin: 5px 10px 0; }
+        .customer-voucher .vouchers-container .voucher-item .voucher-actions .convert-detail .btn-convert {
+          float: right;
+          padding: 9px 20px; }
+
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.customer-voucher {
+  margin-bottom: 60px; }
+  .customer-voucher h2 {
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    color: #e72628;
+    margin-top: 20px; }
+    .customer-voucher h2 + p {
+      margin-top: 10px;
+      color: #666; }
+  .customer-voucher .voucher-filter {
+    margin-top: 30px; }
+    .customer-voucher .voucher-filter label {
+      font-weight: 500; }
+    .customer-voucher .voucher-filter select {
+      display: block;
+      border-radius: 4px;
+      background-color: #fff;
+      border: solid 1px #e5e5e5;
+      width: 127px;
+      height: 36px;
+      padding-left: 7px; }
+

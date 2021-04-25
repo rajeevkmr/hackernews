@@ -1,0 +1,129 @@
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.wallet {
+  padding: 30px 0; }
+  .wallet h3 {
+    font-size: 20px;
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+    color: #222; }
+  .wallet .info .info-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px; }
+    @media (max-width: 767.98px) {
+      .wallet .info .info-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    .wallet .info .info-row label {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100px;
+              flex: 0 0 100px;
+      max-width: 100px;
+      color: #666;
+      margin: 0; }
+      @media (max-width: 767.98px) {
+        .wallet .info .info-row label {
+          -webkit-box-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          max-width: 100%; } }
+    .wallet .info .info-row input {
+      width: 340px; }
+      @media (max-width: 767.98px) {
+        .wallet .info .info-row input {
+          margin-top: 10px;
+          width: 270px; } }
+    .wallet .info .info-row .DayPickerInput input {
+      border: none;
+      border-bottom: 1px solid #e8e8e8 !important; }
+      .wallet .info .info-row .DayPickerInput input:focus {
+        outline: none; }
+    .wallet .info .info-row .phone-wrapper {
+      position: relative; }
+      .wallet .info .info-row .phone-wrapper input {
+        padding-left: 90px;
+        padding-right: 65px; }
+      .wallet .info .info-row .phone-wrapper .countries-data {
+        bottom: 2px; }
+      .wallet .info .info-row .phone-wrapper .btn-submit {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 3px 10px; }
+      .wallet .info .info-row .phone-wrapper.otpSending input {
+        padding-left: 0; }
+    .wallet .info .info-row .dob-input, .wallet .info .info-row .gender-input {
+      position: relative; }
+      .wallet .info .info-row .dob-input .abs-icon, .wallet .info .info-row .gender-input .abs-icon {
+        position: absolute;
+        top: 2px;
+        right: 10px;
+        pointer-events: none; }
+        @media (max-width: 767.98px) {
+          .wallet .info .info-row .dob-input .abs-icon, .wallet .info .info-row .gender-input .abs-icon {
+            top: 9px;
+            right: auto;
+            left: 245px; } }
+        .wallet .info .info-row .dob-input .abs-icon:before, .wallet .info .info-row .gender-input .abs-icon:before {
+          color: #999; }
+    .wallet .info .info-row .gender-dropdown {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      border-radius: 4px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+              box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 180px;
+      z-index: 1; }
+      @media (max-width: 767.98px) {
+        .wallet .info .info-row .gender-dropdown {
+          top: 40px; } }
+      .wallet .info .info-row .gender-dropdown ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px 0;
+        position: relative;
+        font-size: 12px; }
+        .wallet .info .info-row .gender-dropdown ul li {
+          padding: 0 10px;
+          cursor: pointer; }
+          .wallet .info .info-row .gender-dropdown ul li + li {
+            margin-top: 1px; }
+          .wallet .info .info-row .gender-dropdown ul li span {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            padding: 8px 10px 10px;
+            border-radius: 4px;
+            color: #666; }
+            .wallet .info .info-row .gender-dropdown ul li span i {
+              display: none;
+              position: absolute;
+              right: 10px;
+              top: 8px; }
+          .wallet .info .info-row .gender-dropdown ul li.selected {
+            cursor: default; }
+            .wallet .info .info-row .gender-dropdown ul li.selected span {
+              background: #ffeae9;
+              color: #e72628; }
+              .wallet .info .info-row .gender-dropdown ul li.selected span i {
+                display: block; }
+          .wallet .info .info-row .gender-dropdown ul li:hover span {
+            background: #ffeae9;
+            color: #e72628; }
+    .wallet .info .info-row .error-message {
+      width: 100%; }
+    .wallet .info .info-row .btn {
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+

@@ -1,0 +1,23 @@
+@import 'containers/App/css/_variables.scss';
+@import 'containers/App/css/_mixin.scss';
+
+.preload-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 20px 0;
+  .preload-title {
+    margin-left: 20px;
+    flex: 1;
+  }
+}
+
+.home {
+  // min-height: 50vh;
+  padding-top: 88px;
+  background: $color-white;
+
+  .heading{
+    border-bottom: 1px solid #ccc;
+
+  }
+  }

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../Poppins-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url("../NotoSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NotoSans-Bold";
+    src: url("../NotoSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: bold;
+}

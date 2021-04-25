@@ -1,0 +1,10 @@
+{
+    "prettier.printWidth": 180,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "editor.formatOnSave": true,
+    "prettier.disableLanguages": [
+        "sql"
+    ],
+    "prettier.ignorePath": ".prettierignore"
+}

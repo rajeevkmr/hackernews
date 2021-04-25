@@ -1,0 +1,129 @@
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.claim-voucher .content {
+  text-align: center;
+  margin-top: 50px; }
+  .claim-voucher .content p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222;
+    margin: 0; }
+    .claim-voucher .content p span {
+      font-weight: bold;
+      color: #e72628; }
+  .claim-voucher .content .voucher-item {
+    width: 320px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px dashed #ccc;
+    margin: 46px auto 0;
+    position: relative; }
+    .claim-voucher .content .voucher-item.detail-opened .voucher-detail {
+      display: block; }
+    .claim-voucher .content .voucher-item .restaurant-name {
+      width: 100%;
+      background-color: #f8f8f8;
+      text-align: left; }
+      .claim-voucher .content .voucher-item .restaurant-name a {
+        display: block;
+        font-size: 11px;
+        line-height: 1.27;
+        color: #666;
+        padding: 13px 18px; }
+    .claim-voucher .content .voucher-item .voucher-content {
+      padding: 20px 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .claim-voucher .content .voucher-item .voucher-content:before, .claim-voucher .content .voucher-item .voucher-content:after {
+        content: '';
+        position: absolute;
+        width: 7px;
+        height: 14px;
+        background-color: #fff;
+        border: 1px dashed #ccc;
+        bottom: 43px; }
+      .claim-voucher .content .voucher-item .voucher-content:before {
+        left: -1px;
+        border-top-right-radius: 11px;
+        border-bottom-right-radius: 11px;
+        border-left: 0; }
+      .claim-voucher .content .voucher-item .voucher-content:after {
+        right: -1px;
+        border-top-left-radius: 11px;
+        border-bottom-left-radius: 11px;
+        border-right: 0; }
+      .claim-voucher .content .voucher-item .voucher-content .img-wrapper {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 60px;
+                flex: 0 0 60px;
+        width: 60px;
+        height: 60px;
+        border-radius: 4px; }
+        .claim-voucher .content .voucher-item .voucher-content .img-wrapper .bg-img {
+          height: 60px;
+          border-radius: 4px; }
+      .claim-voucher .content .voucher-item .voucher-content .voucher-info {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        text-align: right; }
+        .claim-voucher .content .voucher-item .voucher-content .voucher-info .voucher-price {
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 1.11;
+          letter-spacing: -0.5px;
+          color: #222; }
+        .claim-voucher .content .voucher-item .voucher-content .voucher-info .voucher-expire {
+          font-size: 11px;
+          line-height: 1.27;
+          color: #666;
+          margin-top: 7px; }
+    .claim-voucher .content .voucher-item .voucher-actions {
+      padding: 10px 0;
+      position: relative; }
+      .claim-voucher .content .voucher-item .voucher-actions:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: calc(100% - 40px);
+        height: 1px;
+        border-top: 1px dashed #ccc; }
+      .claim-voucher .content .voucher-item .voucher-actions button {
+        font-family: "Roboto-Medium", Arial, sans-serif;
+        color: #e72628;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none; }
+        .claim-voucher .content .voucher-item .voucher-actions button:focus {
+          -webkit-box-shadow: none;
+                  box-shadow: none; }
+    .claim-voucher .content .voucher-item .voucher-detail {
+      display: none;
+      padding: 20px 10px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: dashed 1px #ccc;
+      margin-top: -1px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1111; }
+      .claim-voucher .content .voucher-item .voucher-detail p {
+        font-size: 13px;
+        line-height: 1.23;
+        color: #222;
+        margin-bottom: 0; }
+        .claim-voucher .content .voucher-item .voucher-detail p + p {
+          margin-top: 10px; }
+

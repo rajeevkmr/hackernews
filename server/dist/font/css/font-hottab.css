@@ -1,0 +1,566 @@
+@font-face {
+  font-family: 'font-hottab';
+  src:
+    url('../font-hottab.ttf?gfw682') format('truetype'),
+    url('../font-hottab.woff?gfw682') format('woff'),
+    url('../font-hottab.svg?gfw682#font-hottab') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-hottab-"], [class*=" icon-hottab-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'font-hottab' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  display: inline-block;
+  text-align: center;
+
+}
+
+.icon-hottab-vietnamese:before {
+  content: "\e97b";
+  color: #6877F6;
+}
+.icon-hottab-burger:before {
+  content: "\e976";
+  color: #6877F6;
+}
+.icon-hottab-dimsum:before {
+  content: "\e974";
+  color: #6877F6;
+}
+.icon-hottab-spagetti:before {
+  content: "\e975";
+  color: #6877F6;
+}
+.icon-hottab-hongkong:before {
+  content: "\e977";
+  color: #6877F6;
+}
+.icon-hottab-pizza:before {
+  content: "\e978";
+  color: #6877F6;
+}
+.icon-hottab-bakeries:before {
+  content: "\e94d";
+  color: #6877F6;
+}
+.icon-hottab-barbecue:before {
+  content: "\e94e";
+  color: #6877F6;
+}
+.icon-hottab-belgian:before {
+  content: "\e94f";
+  color: #6877F6;
+}
+.icon-hottab-british:before {
+  content: "\e950";
+  color: #6877F6;
+}
+.icon-hottab-caribbean:before {
+  content: "\e951";
+  color: #6877F6;
+}
+.icon-hottab-cuban:before {
+  content: "\e952";
+  color: #6877F6;
+}
+.icon-hottab-fast-food:before {
+  content: "\e953";
+  color: #6877F6;
+}
+.icon-hottab-greek:before {
+  content: "\e954";
+  color: #6877F6;
+}
+.icon-hottab-grill:before {
+  content: "\e955";
+  color: #6877F6;
+}
+.icon-hottab-irish:before {
+  content: "\e956";
+  color: #6877F6;
+}
+.icon-hottab-korean:before {
+  content: "\e957";
+  color: #6877F6;
+}
+.icon-hottab-lebanese:before {
+  content: "\e958";
+  color: #6877F6;
+}
+.icon-hottab-mediterranean:before {
+  content: "\e959";
+  color: #6877F6;
+}
+.icon-hottab-middle-eastern:before {
+  content: "\e95a";
+  color: #6877F6;
+}
+.icon-hottab-russian:before {
+  content: "\e95b";
+  color: #6877F6;
+}
+.icon-hottab-sri-lankan:before {
+  content: "\e95c";
+  color: #6877F6;
+}
+.icon-hottab-african:before {
+  content: "\e95d";
+  color: #6877F6;
+}
+.icon-hottab-kosher:before {
+  content: "\e921";
+  color: #6877F6;
+}
+.icon-hottab-gluten:before {
+  content: "\e922";
+  color: #6877F6;
+}
+.icon-hottab-philippines:before {
+  content: "\e923";
+  color: #6877F6;
+}
+.icon-hottab-nordic:before {
+  content: "\e924";
+  color: #6877F6;
+}
+.icon-hottab-kangaroo:before {
+  content: "\e925";
+  color: #6877F6;
+}
+.icon-hottab-western:before {
+  content: "\e926";
+  color: #6877F6;
+}
+.icon-hottab-noodles:before {
+  content: "\e927";
+  color: #6877F6;
+}
+.icon-hottab-friend:before {
+  content: "\e928";
+  color: #6877F6;
+}
+.icon-hottab-world:before {
+  content: "\e929";
+  color: #6877F6;
+}
+.icon-hottab-europe:before {
+  content: "\e92a";
+  color: #6877F6;
+}
+.icon-hottab-eastern:before {
+  content: "\e92b";
+  color: #6877F6;
+}
+.icon-hottab-american:before {
+  content: "\e92c";
+  color: #6877F6;
+}
+.icon-hottab-chinese:before {
+  content: "\e92d";
+  color: #6877F6;
+}
+.icon-hottab-japanese:before {
+  content: "\e92e";
+  color: #6877F6;
+}
+.icon-hottab-thai:before {
+  content: "\e92f";
+  color: #6877F6;
+}
+.icon-hottab-cambodian:before {
+  content: "\e930";
+  color: #6877F6;
+}
+.icon-hottab-asian:before {
+  content: "\e931";
+  color: #6877F6;
+}
+.icon-hottab-indian:before {
+  content: "\e932";
+  color: #6877F6;
+}
+.icon-hottab-halal:before {
+  content: "\e933";
+  color: #6877F6;
+}
+.icon-hottab-vegan:before {
+  content: "\e934";
+  color: #6877F6;
+}
+.icon-hottab-vegetarian:before {
+  content: "\e935";
+  color: #6877F6;
+}
+.icon-hottab-music:before {
+  content: "\e936";
+  color: #6877F6;
+}
+.icon-hottab-drinks:before {
+  content: "\e937";
+  color: #6877F6;
+}
+.icon-hottab-dance:before {
+  content: "\e938";
+  color: #6877F6;
+}
+.icon-hottab-comedy:before {
+  content: "\e939";
+  color: #6877F6;
+}
+.icon-hottab-art:before {
+  content: "\e93a";
+  color: #6877F6;
+}
+.icon-hottab-sport:before {
+  content: "\e93b";
+  color: #6877F6;
+}
+.icon-hottab-party:before {
+  content: "\e93c";
+  color: #6877F6;
+}
+.icon-hottab-worldcup:before {
+  content: "\e93d";
+  color: #6877F6;
+}
+.icon-hottab-lunch:before {
+  content: "\e93e";
+  color: #6877F6;
+}
+.icon-hottab-dinner:before {
+  content: "\e93f";
+  color: #6877F6;
+}
+.icon-hottab-breakfast:before {
+  content: "\e940";
+  color: #6877F6;
+}
+.icon-hottab-air-conditioner:before {
+  content: "\e941";
+  color: #6877F6;
+}
+.icon-hottab-wifi:before {
+  content: "\e942";
+  color: #6877F6;
+}
+.icon-hottab-car-parking:before {
+  content: "\e943";
+  color: #6877F6;
+}
+.icon-hottab-Other:before {
+  content: "\e944";
+  color: #6877F6;
+}
+.icon-hottab-chef:before {
+  content: "\e945";
+  color: #6877F6;
+}
+.icon-hottab-supplier:before {
+  content: "\e946";
+  color: #6877F6;
+}
+.icon-hottab-hotel:before {
+  content: "\e947";
+  color: #6877F6;
+}
+.icon-hottab-bar:before {
+  content: "\e948";
+  color: #6877F6;
+}
+.icon-hottab-quick-service:before {
+  content: "\e949";
+  color: #6877F6;
+}
+.icon-hottab-cafe:before {
+  content: "\e94a";
+  color: #6877F6;
+}
+.icon-hottab-laundry:before {
+  content: "\e94b";
+  color: #6877F6;
+}
+.icon-hottab-store:before {
+  content: "\e94c";
+  color: #6877F6;
+}
+.icon-hottab-cart-pro:before {
+  content: "\e986";
+  color: #6877F6;
+}
+.icon-hottab-heart-solid:before {
+  content: "\e984";
+  color: #fff;
+}
+.icon-hottab-heart:before {
+  content: "\e985";
+  color: #6877F6;
+}
+.icon-hottab-twitter:before {
+  content: "\e982";
+}
+.icon-hottab-facebook:before {
+  content: "\e983";
+}
+.icon-hottab-map-toggle:before {
+  content: "\e97d";
+  color: #6877F6;
+}
+.icon-hottab-list:before {
+  content: "\e97e";
+}
+.icon-hottab-grid:before {
+  content: "\e97f";
+}
+.icon-hottab-cart:before {
+  content: "\e980";
+  color: #6877F6;
+}
+.icon-hottab-voucher:before {
+  content: "\e981";
+  color: #fff;
+}
+.icon-hottab-share:before {
+  content: "\e97c";
+  color: #6877F6;
+}
+.icon-hottab-baseline-vertical-bottom:before {
+  content: "\e979";
+  color: #6877F6;
+}
+.icon-hottab-baseline-vertical-top:before {
+  content: "\e97a";
+  color: #6877F6;
+}
+.icon-hottab-note:before {
+  content: "\e973";
+  color: #6877F6;
+}
+.icon-hottab-paper:before {
+  content: "\e972";
+  color: #6877F6;
+}
+.icon-hottab-coins:before {
+  content: "\e96e";
+  color: #6877F6;
+}
+.icon-hottab-logout:before {
+  content: "\e96f";
+  color: #6877F6;
+}
+.icon-hottab-transactions:before {
+  content: "\e970";
+  color: #6877F6;
+}
+.icon-hottab-coupon:before {
+  content: "\e971";
+  color: #6877F6;
+}
+.icon-hottab-people:before {
+  content: "\e96d";
+  color: #6877F6;
+}
+.icon-hottab-credit-card:before {
+  content: "\e96c";
+  color: #6877F6;
+}
+.icon-hottab-magnify:before {
+  content: "\e96b";
+  color: #6877F6;
+}
+.icon-hottab-link:before {
+  content: "\e96a";
+  color: #6877F6;
+}
+.icon-hottab-camera:before {
+  content: "\e969";
+  color: #6877F6;
+}
+.icon-hottab-chat-bubble:before {
+  content: "\e968";
+  color: #6877F6;
+}
+.icon-hottab-help:before {
+  content: "\e966";
+  color: #6877F6;
+}
+.icon-hottab-help-circle:before {
+  content: "\e967";
+  color: #6877F6;
+}
+.icon-hottab-twenty-four-hours:before {
+  content: "\e963";
+  color: #6877F6;
+}
+.icon-hottab-protect-shield:before {
+  content: "\e964";
+  color: #6877F6;
+}
+.icon-hottab-cutlery:before {
+  content: "\e965";
+  color: #6877F6;
+}
+.icon-hottab-minus:before {
+  content: "\e961";
+  color: #6877F6;
+}
+.icon-hottab-plus:before {
+  content: "\e962";
+  color: #6877F6;
+}
+.icon-hottab-qr-code:before {
+  content: "\e95f";
+  color: #6877F6;
+}
+.icon-hottab-times-circle-solid:before {
+  content: "\e960";
+  color: #6877F6;
+}
+.icon-hottab-check-solid:before {
+  content: "\e95e";
+  color: #6877F6;
+}
+.icon-hottab-to:before {
+  content: "\e918";
+  color: #6877F6;
+}
+.icon-hottab-from:before {
+  content: "\e919";
+  color: #6877F6;
+}
+.icon-hottab-arrow-left:before {
+  content: "\e914";
+  color: #6877F6;
+}
+.icon-hottab-arrow-up:before {
+  content: "\e915";
+  color: #6877F6;
+}
+.icon-hottab-arrow-right:before {
+  content: "\e916";
+  color: #6877F6;
+}
+.icon-hottab-arrow-down:before {
+  content: "\e917";
+  color: #6877F6;
+}
+.icon-hottab-angle-up:before {
+  content: "\e900";
+  color: #6877F6;
+}
+.icon-hottab-angle-left:before {
+  content: "\e911";
+  color: #6877F6;
+}
+.icon-hottab-angle-right:before {
+  content: "\e912";
+  color: #6877F6;
+}
+.icon-hottab-angle-down:before {
+  content: "\e913";
+  color: #e94125;
+}
+.icon-hottab-bars:before {
+  content: "\e901";
+  color: #999;
+}
+.icon-hottab-bell:before {
+  content: "\e902";
+  color: #999;
+}
+.icon-hottab-book-mark:before {
+  content: "\e903";
+  /*color: #6877F6;*/
+  color: #6877F6;
+}
+.icon-hottab-calendar:before {
+  content: "\e904";
+  color: #999;
+}
+.icon-hottab-cash:before {
+  content: "\e905";
+  color: #6877F6;
+}
+.icon-hottab-check:before {
+  content: "\e906";
+  color: #6877F6;
+}
+.icon-hottab-clock:before {
+  content: "\e907";
+  color: #6877F6;
+}
+.icon-hottab-cursor:before {
+  content: "\e908";
+  color: #6877F6;
+}
+.icon-hottab-delivery:before {
+  content: "\e909";
+  color: #6877F6;
+  font-size: 16px;
+}
+.icon-hottab-email:before {
+  content: "\e90a";
+  color: #6877F6;
+}
+.icon-hottab-gps:before {
+  content: "\e90b";
+  color: #6877F6;
+}
+.icon-hottab-home:before {
+  content: "\e90c";
+  color: #999;
+}
+.icon-hottab-information:before {
+  content: "\e90d";
+  color: #999;
+}
+.icon-hottab-more:before {
+  content: "\e90e";
+  color: #6877F6;
+}
+.icon-hottab-pen:before {
+  content: "\e90f";
+  color: #6877F6;
+}
+.icon-hottab-phone:before {
+  content: "\e910";
+  color: #6877F6;
+}
+.icon-hottab-settings:before {
+  content: "\e91a";
+  color: #6877F6;
+}
+.icon-hottab-star:before {
+  content: "\e91b";
+  color: #6877F6;
+}
+.icon-hottab-tag:before {
+  content: "\e91c";
+  color: #6877F6;
+}
+.icon-hottab-takeaway:before {
+  content: "\e91d";
+  color: #828686;
+}
+.icon-hottab-target:before {
+  content: "\e91e";
+  color: #6877F6;
+}
+.icon-hottab-user:before {
+  content: "\e91f";
+  color: #6877F6;
+}
+.icon-hottab-x:before {
+  content: "\e920";
+  color: #6877F6;
+}

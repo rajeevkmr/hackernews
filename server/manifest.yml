@@ -1,0 +1,5 @@
+---
+applications:
+ - name: samplehottab
+   random-route: true
+   memory: 256M

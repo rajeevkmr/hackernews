@@ -1,0 +1,288 @@
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.order-detail {
+  padding: 56px 0; }
+  .order-detail .order-header h2 {
+    display: inline-block;
+    font-size: 32px;
+    font-family: "Roboto-Medium", Arial, sans-serif;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    color: #e72628; }
+  .order-detail .order-header .order-feedback {
+    float: right;
+    margin-top: 14px; }
+  .order-detail .order-header p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    line-height: 1.23;
+    color: #666; }
+  .order-detail .order-header .status {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+    margin-top: 6px; }
+  .order-detail .order-content {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 767.98px) {
+      .order-detail .order-content {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    .order-detail .order-content .order-info {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 360px;
+              flex: 0 0 360px;
+      max-width: 360px;
+      border-radius: 8px;
+      border: solid 1px #e5e5e5;
+      background-color: #fff;
+      padding: 20px 30px; }
+      @media (max-width: 767.98px) {
+        .order-detail .order-content .order-info {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 100%;
+                  flex: 0 0 100%;
+          max-width: 100%; } }
+      .order-detail .order-content .order-info .ordering-method {
+        color: #e72628;
+        font-family: "Roboto-Medium", Arial, sans-serif; }
+        .order-detail .order-content .order-info .ordering-method i {
+          margin-right: 6px;
+          position: relative;
+          top: 2px; }
+      .order-detail .order-content .order-info .restaurant-container {
+        margin-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .order-detail .order-content .order-info .restaurant-container .restaurant-logo {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 40px;
+                  flex: 0 0 40px;
+          max-width: 40px; }
+          .order-detail .order-content .order-info .restaurant-container .restaurant-logo .bg-img {
+            border-radius: 4px; }
+            .order-detail .order-content .order-info .restaurant-container .restaurant-logo .bg-img.default-img {
+              background-size: 30px; }
+        .order-detail .order-content .order-info .restaurant-container .restaurant-content {
+          -webkit-box-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          padding-left: 10px; }
+          .order-detail .order-content .order-info .restaurant-container .restaurant-content a {
+            color: #222;
+            font-family: "Roboto-Medium", Arial, sans-serif; }
+          .order-detail .order-content .order-info .restaurant-container .restaurant-content .restaurant-address {
+            font-size: 13px;
+            line-height: 1.23;
+            color: #666;
+            margin-top: 3px; }
+      .order-detail .order-content .order-info .order-items {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #efefef; }
+        .order-detail .order-content .order-info .order-items .order-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          min-width: 0;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          .order-detail .order-content .order-info .order-items .order-item + .order-item {
+            margin-top: 20px; }
+          .order-detail .order-content .order-info .order-items .order-item .item-logo {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 40px;
+                    flex: 0 0 40px;
+            max-width: 40px; }
+            .order-detail .order-content .order-info .order-items .order-item .item-logo .bg-img {
+              border-radius: 4px; }
+              .order-detail .order-content .order-info .order-items .order-item .item-logo .bg-img.default-img {
+                background-size: 30px; }
+          .order-detail .order-content .order-info .order-items .order-item h4 {
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
+            max-width: 160px;
+            font-size: 14px;
+            font-family: "Roboto-Medium", Arial, sans-serif;
+            line-height: 1.14;
+            overflow: hidden;
+            white-space: nowrap;
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+            padding: 0 10px;
+            margin-top: 10px; }
+          .order-detail .order-content .order-info .order-items .order-item .item-quantity {
+            width: 24px;
+            height: 24px;
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 24px;
+                    flex: 0 0 24px;
+            font-size: 14px;
+            line-height: 1.43;
+            text-align: center;
+            border-radius: 4px;
+            border: solid 1px #e5e5e5;
+            background-color: #fff;
+            margin-top: 7px; }
+          .order-detail .order-content .order-info .order-items .order-item .item-price {
+            text-align: right;
+            margin-top: 8px;
+            margin-left: 5px;
+            -webkit-box-flex: 1;
+                -ms-flex: 1;
+                    flex: 1;
+            max-width: 75px;
+            white-space: nowrap; }
+          .order-detail .order-content .order-info .order-items .order-item .item-options {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+            margin-top: 8px; }
+            .order-detail .order-content .order-info .order-items .order-item .item-options span {
+              font-size: 13px;
+              line-height: 1.23;
+              color: #666; }
+              .order-detail .order-content .order-info .order-items .order-item .item-options span + span:before {
+                content: '; '; }
+      .order-detail .order-content .order-info .fee {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #efefef; }
+        .order-detail .order-content .order-info .fee .fee-row {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          color: #666; }
+          .order-detail .order-content .order-info .fee .fee-row + .fee-row {
+            margin-top: 5px; }
+          .order-detail .order-content .order-info .fee .fee-row .value.bold {
+            font-family: "Roboto-Medium", Arial, sans-serif; }
+          .order-detail .order-content .order-info .fee .fee-row .value.big {
+            font-size: 24px;
+            line-height: 1.17;
+            margin-top: -5px; }
+          .order-detail .order-content .order-info .fee .fee-row .value.red {
+            color: #e72628; }
+      .order-detail .order-content .order-info .order-note {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #efefef; }
+    .order-detail .order-content .order-info-right {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      padding-left: 40px; }
+      @media (max-width: 767.98px) {
+        .order-detail .order-content .order-info-right {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 100%;
+                  flex: 0 0 100%;
+          max-width: 100%;
+          margin-top: 30px;
+          padding-left: 0; } }
+      .order-detail .order-content .order-info-right .order-map .map-wrapper {
+        height: 360px; }
+        @media (max-width: 767.98px) {
+          .order-detail .order-content .order-info-right .order-map .map-wrapper {
+            height: 200px; } }
+      .order-detail .order-content .order-info-right .extra-info {
+        margin-top: 30px; }
+        html.ie8 .order-detail .order-content .order-info-right .extra-info .col-6 {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 100%;
+                  flex: 0 0 100%;
+          max-width: 100%; }
+        @media (max-width: 991.98px) {
+          .order-detail .order-content .order-info-right .extra-info .col-6 {
+            -webkit-box-flex: 0;
+                -ms-flex: 0 0 100%;
+                    flex: 0 0 100%;
+            max-width: 100%; } }
+        .order-detail .order-content .order-info-right .extra-info .info {
+          position: relative;
+          padding-left: 30px; }
+          .order-detail .order-content .order-info-right .extra-info .info:before {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            background: #e72628; }
+          .order-detail .order-content .order-info-right .extra-info .info h4 {
+            font-size: 14px;
+            line-height: 16px;
+            color: #222; }
+          .order-detail .order-content .order-info-right .extra-info .info p {
+            margin: 2px 0 0;
+            color: #666; }
+          .order-detail .order-content .order-info-right .extra-info .info .address-note {
+            font-size: 13px;
+            line-height: 1.23;
+            color: #666;
+            margin-top: 2px; }
+        .order-detail .order-content .order-info-right .extra-info .dest-info {
+          margin-top: 20px; }
+          .order-detail .order-content .order-info-right .extra-info .dest-info:after {
+            content: "";
+            position: absolute;
+            top: 6px;
+            left: 3px;
+            width: 6px;
+            height: 6px;
+            border-radius: 100%;
+            background: #fff; }
+          .order-detail .order-content .order-info-right .extra-info .dest-info label {
+            font-family: "Roboto-Medium", Arial, sans-serif; }
+      .order-detail .order-content .order-info-right .customer-info {
+        position: relative;
+        padding-left: 30px; }
+        html.ie8 .order-detail .order-content .order-info-right .customer-info {
+          margin-top: 20px; }
+        @media (max-width: 991.98px) {
+          .order-detail .order-content .order-info-right .customer-info {
+            margin-top: 20px; } }
+        .order-detail .order-content .order-info-right .customer-info i {
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .order-detail .order-content .order-info-right .customer-info .phone {
+          font-family: "Roboto-Medium", Arial, sans-serif; }
+        .order-detail .order-content .order-info-right .customer-info .name {
+          font-size: 13px;
+          color: #666; }
+      .order-detail .order-content .order-info-right .payment-method {
+        font-family: "Roboto-Medium", Arial, sans-serif;
+        margin-top: 20px; }
+        .order-detail .order-content .order-info-right .payment-method i {
+          margin-right: 16px; }
+      .order-detail .order-content .order-info-right .time-delivery {
+        margin-top: 20px;
+        padding-left: 30px; }
+        .order-detail .order-content .order-info-right .time-delivery label {
+          color: #666;
+          font-size: 13px; }
+        .order-detail .order-content .order-info-right .time-delivery .time {
+          font-family: "Roboto-Medium", Arial, sans-serif;
+          color: #e72628; }
+      .order-detail .order-content .order-info-right .cancel-reason {
+        margin-top: 20px;
+        padding-left: 30px; }
+        .order-detail .order-content .order-info-right .cancel-reason label {
+          color: #666;
+          font-size: 13px;
+          display: block; }
+

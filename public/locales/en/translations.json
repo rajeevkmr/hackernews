@@ -1,0 +1,32 @@
+{
+
+    "PLACEHOLDER": {
+
+    },
+    "TOAST": {
+
+    },
+    "LABEL": {
+        "HEADER": "Header",
+        "FOOTER": "Footer"
+    },
+
+    "BUTTON": {
+        "CLEAR": "Clear",
+        "PREVIEW": "Preview"
+    },
+
+    "HEADER": {
+
+    },
+
+    "VALIDATE": {
+
+    },
+    "ERROR_CODE": {
+
+    },
+    "ERROR_CUSTOM_CODE": {
+
+    }
+}

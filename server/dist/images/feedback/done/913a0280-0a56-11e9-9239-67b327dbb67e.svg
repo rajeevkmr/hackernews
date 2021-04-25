@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Need to improve</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Need-to-improve" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,60 C16.536027,60 4,47.463973 4,32 C4,16.536027 16.536027,4 32,4 C47.463973,4 60,16.536027 60,32 C60,47.463973 47.463973,60 32,60 Z" id="Oval" fill="#E33322" fill-rule="nonzero"></path>
+        <circle id="Oval" fill="#F7F7F7" cx="32" cy="32" r="26"></circle>
+        <path d="M18.4860552,54.2164181 C10.9989399,49.6523534 6,41.4099592 6,32 C6,17.6405965 17.6405965,6 32,6 C38.7465961,6 44.8930213,8.5696375 49.5139448,12.7835819 C45.5758767,10.3829781 40.9494443,9 36,9 C21.6405965,9 10,20.6405965 10,35 C10,42.6128074 13.2718405,49.4614355 18.4860552,54.2164181 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <ellipse id="Oval-2-Copy-2" fill="#E33322" cx="25.5" cy="28.5" rx="2.5" ry="3.5"></ellipse>
+        <ellipse id="Oval-2-Copy-3" fill="#E33322" cx="37.5" cy="28.5" rx="2.5" ry="3.5"></ellipse>
+        <path d="M21,27 C20.4477153,27 20,26.5522847 20,26 C20,25.4477153 20.4477153,25 21,25 L29.2570138,25 C29.8092986,25 30.2570138,25.4477153 30.2570138,26 C30.2570138,26.5522847 29.8092986,27 29.2570138,27 L21,27 Z" id="Path-9" fill="#E33322" fill-rule="nonzero"></path>
+        <path d="M34,23 C33.4477153,23 33,22.5522847 33,22 C33,21.4477153 33.4477153,21 34,21 L42.2570138,21 C42.8092986,21 43.2570138,21.4477153 43.2570138,22 C43.2570138,22.5522847 42.8092986,23 42.2570138,23 L34,23 Z" id="Path-9" fill="#E33322" fill-rule="nonzero"></path>
+        <path d="M28,43 C27.4477153,43 27,42.5522847 27,42 C27,41.4477153 27.4477153,41 28,41 L36.2570138,41 C36.8092986,41 37.2570138,41.4477153 37.2570138,42 C37.2570138,42.5522847 36.8092986,43 36.2570138,43 L28,43 Z" id="Path-9-Copy" fill="#E33322" fill-rule="nonzero"></path>
+    </g>
+</svg>

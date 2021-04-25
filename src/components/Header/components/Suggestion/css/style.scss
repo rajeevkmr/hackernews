@@ -1,0 +1,202 @@
+@import 'containers/App/css/_variables.scss';
+@import 'containers/App/css/_mixin.scss';
+
+.suggestion {
+  position: relative;
+  .btn-search-mobile {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    i {
+      font-size: 24px;
+    }
+    @include media-breakpoint-down(sm) {
+      position: relative;
+      top: 8px;
+    }
+    @include media-breakpoint-down(xs) {
+      position: relative;
+      top: 8px;
+    }
+  }
+  button {
+    float: left;
+    padding: 0;
+    background: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 6px;
+    border: none;
+    outline: git ne;
+
+    @include media-breakpoint-down(md) {
+      left: 23px;
+    }
+    img {
+      position: relative;
+      max-width: inherit;
+      top: -3px;
+      border: none;
+      outline: none;
+      &:focus {
+        outline: none;
+      }
+      &:selected {
+        outline: none;
+      }
+    }
+  }
+  .suggestion-dropdown {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 800px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(34, 34, 34, 0.1);
+    box-shadow: 0 8px 16px 0 rgba(34, 34, 34, 0.1);
+    background-color: $color-white;
+    padding: 12px 0 20px;
+    &.no-result {
+      &:before {
+        content: none;
+      }
+    }
+    .empty-result {
+      margin: 30px auto;
+    }
+    &:before {
+      content: '';
+      top: 0;
+      left: 50%;
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background: $color-bg-solid-3;
+      z-index: 1;
+      @include media-breakpoint-down(md) {
+        content: none;
+      }
+    }
+    .suggestion-list {
+      position: relative;
+      padding: 0;
+      @include media-breakpoint-down(md) {
+        padding: 15px 0;
+      }
+      &:before {
+        @include media-breakpoint-down(md) {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 15px;
+          width: calc(100% - 30px);
+          height: 1px;
+          background: $color-bg-solid-3;
+        }
+      }
+      .item {
+        padding: 10px 20px;
+        cursor: pointer;
+        display: flex;
+        &:hover {
+          background: $color-bg-solid-1;
+        }
+      }
+      h3 {
+        font-size: 13px;
+        font-weight: bold;
+        color: $color-main-10;
+        text-transform: uppercase;
+        padding: 0 20px;
+        margin: 0 0 10px;
+      }
+      .bg-img {
+        flex: 0 0 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+      }
+      .default-img {
+        background-size: 25px;
+      }
+      .info {
+        flex: 1;
+        padding-left: 10px;
+        min-width: 0;
+      }
+      .title {
+        font-size: 14px;
+        font-family: $FontBold;
+        line-height: 1.14;
+        color: $color-main-2;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        a {
+          color: $color-main-2;
+        }
+        .name {
+          padding-right: 15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+        .price {
+          font-family: $FontRegular;
+        }
+      }
+      .sub {
+        font-size: 13px;
+        line-height: 1.23;
+        color: $color-main-3;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        overflow: hidden;
+      }
+      .see-all {
+        display: inline-block;
+        font-size: 16px;
+        font-family: $FontBold;
+        line-height: 1.5;
+        color: $color-main-10;
+        margin-top: 10px;
+        cursor: pointer;
+        padding: 0 20px;
+      }
+    }
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+    i {
+      &:before {
+        color: $color-main-10;
+        font-size: $font-size-14px;
+      }
+    }
+    .icon-hottab-x {
+      padding-right: 5px;
+    }
+  }
+  .suggestion-mobile {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: $color-white;
+    z-index: 1;
+    overflow: auto;
+    .suggestion-dropdown {
+      position: static;
+      width: 100%;
+    }
+  }
+}

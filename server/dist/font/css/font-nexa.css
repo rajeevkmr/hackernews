@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Nexa-Bold';
+  src: url('../Nexa/NexaDemo-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa-Light';
+  src: url('../Nexa/NexaDemo-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../Nexa/NexaBold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Poppins-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

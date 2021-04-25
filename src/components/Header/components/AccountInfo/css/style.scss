@@ -1,0 +1,196 @@
+@import 'containers/App/css/_variables.scss';
+@import 'containers/App/css/_mixin.scss';
+
+.accountinfo {
+  max-width: 360px !important;
+
+  .modal-content {
+    min-height: 464px !important;
+
+    .modal-content-inner {
+      height: auto;
+      padding: 13px 13px;
+      overflow: hidden;
+      background: $color-white;
+      border-bottom-left-radius: 5px;
+    }
+  }
+  .account-content {
+    .btn-close {
+      right: 10px;
+      &:before,
+      &:after {
+        width: 14px;
+        height: 2px;
+      }
+    }
+    .customerheader {
+      padding: 14px 0 0 0;
+      .customer-avatar {
+        flex: 0 0 80px;
+        max-width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        @include media-breakpoint-down(sm) {
+          flex: 0 0 100%;
+          margin: auto;
+        }
+        .avatar {
+          position: relative;
+          background: $color-main-5;
+          width: 100%;
+          height: 100%;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          .icon-user {
+            font-size: 32px;
+            line-height: 1;
+            opacity: 0.2;
+          }
+          input {
+            display: none;
+          }
+          .icon-camera {
+            position: absolute;
+            bottom: 0;
+            right: -16px;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border-radius: 100%;
+            background: $color-main-10;
+            font-size: 12px;
+            border: 2px solid $color-white;
+            box-sizing: content-box;
+            &:before {
+              color: $color-white;
+            }
+          }
+          .bg-img {
+            border-radius: 100%;
+          }
+        }
+      }
+      .customerInfo {
+        text-align: center;
+        padding: 20px 0 10px;
+        .balance {
+          font-family: $FontRoboto;
+          font-size: $font-size-20px;
+          font-weight: 500;
+          color: $color-main-10;
+          .loading-container {
+            margin-top: 0;
+            .lds-ring {
+              height: 33px;
+            }
+          }
+          span {
+            display: inline-block;
+            position: relative;
+            top: 3px;
+            left: 12px;
+          }
+          img {
+            object-fit: contain;
+          }
+          .icon-hottab-angle-right {
+            font-size: $font-size-13px;
+            position: relative;
+            top: 3px;
+            left: 10px;
+
+            &:before {
+              color: $color-lightgrey;
+              display: table;
+              display: inline;
+              padding-top: 3px;
+            }
+          }
+          label {
+            font-size: $font-size-20px;
+            padding-right: 0px;
+            padding-left: 3px;
+          }
+        }
+        .fullname {
+          font-size: $font-size-16px;
+          font-weight: 500;
+          font-family: $FontRoboto;
+          padding: 10px 0 10px;
+          color: $color-itemcolor;
+        }
+        .phone {
+          font-size: $font-size-15px;
+          font-weight: normal;
+          font-family: $FontRoboto;
+          color: $color-itemcolor;
+        }
+      }
+    }
+    .customerBody {
+      img {
+        margin-right: 20px;
+      }
+      .icon-hottab-angle-right {
+        &:before {
+          color: $color-main-10;
+        }
+      }
+      a {
+        display: inline-block;
+        width: 100%;
+        font-family: $FontRoboto;
+        font-size: $font-size-15px;
+        font-weight: 500;
+        color: $color-main-3;
+
+        span {
+          border-radius: none;
+          background: none;
+          display: inline;
+          color: $color-main-3;
+          padding: 10px 0 0 10px;
+        }
+        &:hover{
+          background: $color-lightgrey;
+          border-radius: 4px;
+        }
+        >div{
+          height: 40px;
+          padding: 10px 0 0 0;
+        }
+      }
+
+      .icon-hottab-angle-right {
+        right: 20px;
+        position: absolute;
+      }
+
+
+      .accountnotification {
+        display: block;
+        /* margin: 15px 0 15px 0; */
+        padding: 6px 6px 6px 10px;
+      }
+
+      span {
+        height: 35px;
+        width: 35px;
+        border-radius: 100%;
+        background: $color-main-10;
+        display: inline-block;
+        color: $color-white;
+        padding: 5px 0 0 5px;
+        margin-right: 20px;
+        img {
+          padding: 4px 0 0 4px;
+        }
+      }
+    }
+
+  }
+}

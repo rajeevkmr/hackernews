@@ -1,0 +1,78 @@
+/* Font - start */
+/* Font - end */
+/* Color - start */
+/* Color - end */
+/* Breakpoint - start */
+/* Breakpoint - end */
+.addresses {
+  margin-top: 60px; }
+  .addresses .info-header label {
+    text-transform: uppercase;
+    color: #666;
+    font-family: "Roboto-Medium", Arial, sans-serif; }
+  .addresses .info-row {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 20px; }
+    html.ie8 .addresses .info-row {
+      width: 100%; }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .addresses .info-row {
+        width: 100%; } }
+    @media (max-width: 767.98px) {
+      .addresses .info-row {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    .addresses .info-row > div:first-child {
+      width: 270px;
+      margin-right: 30px; }
+      html.ie8 .addresses .info-row > div:first-child {
+        width: 35%; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .addresses .info-row > div:first-child {
+          width: 35%; } }
+      @media (max-width: 767.98px) {
+        .addresses .info-row > div:first-child {
+          width: 100%;
+          margin-right: 0; }
+          .addresses .info-row > div:first-child input {
+            border-bottom: none !important; } }
+      .addresses .info-row > div:first-child + div {
+        width: 470px; }
+        html.ie8 .addresses .info-row > div:first-child + div {
+          width: 65%; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .addresses .info-row > div:first-child + div {
+            width: 65%; } }
+        @media (max-width: 767.98px) {
+          .addresses .info-row > div:first-child + div {
+            width: 90%;
+            margin-top: 10px; } }
+        .addresses .info-row > div:first-child + div input {
+          color: #666; }
+    .addresses .info-row > div input {
+      width: 100%; }
+    .addresses .info-row .btn-close {
+      position: absolute;
+      right: -31px;
+      bottom: -2px; }
+      @media (max-width: 767.98px) {
+        .addresses .info-row .btn-close {
+          right: -10px; } }
+      .addresses .info-row .btn-close:before, .addresses .info-row .btn-close:after {
+        background: #ccc; }
+  .addresses .button-wrapper {
+    margin-top: 20px; }
+    .addresses .button-wrapper .btn {
+      text-transform: uppercase;
+      font-family: "Roboto-Medium", Arial, sans-serif; }
+      .addresses .button-wrapper .btn:first-child {
+        margin-right: 20px; }
+    .addresses .button-wrapper .btn-plus {
+      top: 2px; }
+
